@@ -90,7 +90,7 @@
   .icon-img('../node_modules/jenkins-core-theme/images/settings.svg', @color-grey);
 }
 
-.icon-up, .task-icon-link[href='/'] img {
+.icon-up, [src$='/up.png'] {
   .icon-img('../node_modules/jenkins-core-theme/images/arrow_back.svg', @color-grey);
 }
 
@@ -296,7 +296,7 @@
 .icon-notepad, [src$='notepad.png'],
 .icon-setting, [src$='setting.png'],
 .icon-gear2, [src$='gear2.png'],
-.icon-up,
+.icon-up, [src$='/up.png'],
 .icon-edit-delete,
 .icon-fingerprint, [src$='fingerprint.png'],
 .icon-graph, [src$='graph.png'],
@@ -396,13 +396,4 @@
   width: auto !important;
   padding: 0 !important;
 }
-
-.task-icon-link[href='/'] {
-  img {
-    padding: 36px 0 0 36px !important;
-    filter: brightness(10000);
-  }
-}
-
-
 
