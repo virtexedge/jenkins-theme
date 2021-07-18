@@ -21,23 +21,23 @@
 
 // Replacement images
 
-[src$='blue.png'] {
+.icon-blue, [src$='blue.png'] {
   .icon-img('check_circle.svg', @color-green);
 }
 
-[src$='red.png'] {
+.icon-red, [src$='red.png'] {
   .icon-img('error.svg', @color-red);
 }
 
-[src$='yellow.png'] {
+.icon-yellow, [src$='yellow.png'] {
   .icon-img('warning.svg', @color-yellow);
 }
 
-[src$='grey.png'], [src$='aborted.png'], [src$='disabled.png'] {
+.icon-grey, [src$='grey.png'], .icon-aborted, [src$='aborted.png'], .icon-disabled, [src$='disabled.png'] {
   .icon-img('remove_circle.svg', @color-grey);
 }
 
-[src$='nobuilt.png'] {
+.icon-nobuilt, [src$='nobuilt.png'] {
   .icon-img('trip_origin.svg', @color-grey);
 }
 
@@ -205,7 +205,7 @@
   .icon-img('stop.svg', @color-grey);
 }
 
-[src$='/move.png'] {
+.icon-item-move-folder, [src$='/move.png'] {
   .icon-img('folder-move.svg', @color-grey);
 }
 
@@ -214,7 +214,7 @@
   .icon-img('rss-box.svg', @color-yellow);
 }
 
-[src$='credentials.png'] {
+.icon-credentials-credentials, [src$='credentials.png'] {
   .icon(@size-xl);
   .icon-img('key.svg', @color-grey);
 }
