@@ -5,6 +5,24 @@
   @data-uri: data-uri("image/svg+xml;charset=UTF-8", '@{core_theme_path}@{file}');
   @new-uri: replace("@{data-uri}", escape("#333"), "@{encoded-white}");
   background-image: e(@new-uri);
+
+  // Sizes
+
+  &.icon-xlg, &[src*='48x'], &.icon48x48 {
+    .icon(@size-xl);
+  }
+
+  &.icon-lg, &[src*='32x'], &.icon32x32, &[style*='width: 32p'], &[width="32"] {
+    .icon(@size-lg);
+  }
+
+  &.icon-md, &[src*='24x'], &.icon24x24, &[style*='width: 24p'], &[width="24"] {
+    .icon(@size-md);
+  }
+
+  &.icon-sm, &[src*='16x'], &.icon16x16, &[style*='width: 16p'], &[width="16"] {
+    .icon(@size-sm);
+  }
 }
 
 .icon(@size) { // outer mixin

@@ -19,8 +19,7 @@
 @size-lg: 36px;
 @size-xl: 48px;
 
-// Src
-// Reminder: Each selector using `.icon-img` must be declared bellow using .icon-size too
+// Replacement images
 
 [src$='blue.png'] {
   .icon-img('check_circle.svg', @color-green);
@@ -278,94 +277,6 @@
 [src$='scala-24x24.png'], [src$='scala-48x48.png'], 
 [src$='warnings-24x24.png'], [src$='warnings-48x48.png'] {
   .icon-img('warning.svg', @color-grey);
-}
-
-// Size
-
-[src$='red.png'],
-[src$='blue.png'],
-[src$='yellow.png'],
-[src$='grey.png'], [src$='aborted.png'], [src$='nobuilt.png'], [src$='disabled.png'],
-.icon-health-80plus, [src$='health-80plus.png'],
-.icon-health-60to79, [src$='health-60to79.png'],
-.icon-health-40to59, [src$='health-40to59.png'],
-.icon-health-20to39, [src$='health-20to39.png'],
-.icon-health-00to19, [src$='health-00to19.png'],
-.icon-blue-anime, [src$='blue_anime.gif'],
-.icon-red-anime, [src$='red_anime.gif'],
-.icon-grey-anime, [src$='grey_anime.gif'], .icon-nobuilt-anime, .icon-aborted-anime,
-.icon-yellow-anime, [src$='yellow_anime.gif'],
-.icon-new-package, [src$='new-package.png'],
-.icon-user, [src$='user.png'],
-.icon-notepad, [src$='notepad.png'],
-.icon-setting, [src$='setting.png'],
-.icon-gear2, [src$='gear2.png'],
-.icon-up, [src$='/up.png'],
-.icon-edit-delete,
-.icon-fingerprint, [src$='fingerprint.png'],
-.icon-graph, [src$='graph.png'],
-.icon-collapse,
-.icon-expand,
-.icon-help, [src$='help.png'],
-.icon-secure, .icon-lock, [src$='secure.png'],
-.icon-plugin, [src$='plugin.png'],
-.icon-system-log-out, [src$='system-log-out.png'],
-.icon-refresh, [src$='refresh.png'],
-.icon-computer, [src$='computer.png'],
-.icon-computer-x,
-.icon-new-computer,
-.icon-clipboard, [src$='clipboard.png'],
-.icon-monitor, [src$='monitor.png'],
-.icon-terminal, [src$='terminal.png'],
-.icon-network, [src$='network.png'],
-.icon-document, .icon-text,
-.icon-folder, [src$='folder.png'], [src$='/directory16.png'],
-.icon-clock, .icon-clock-anime, [src$='clock.png'],
-.icon-folder-delete, [src$='edit-delete.png'],
-.icon-previous,
-.icon-next,
-.icon-save, [src$='/save.png'],
-.icon-package, [src$='package.gif'],
-.icon-search, [src$='search.png'],
-.icon-stop,
-[src$='/move.png'],
-[src$='/atom.gif'],
-[src$='credentials.png'],
-[src$='confighistory.png'],
-[src$='domain.png'],
-#description-link img, .icon-gear, [src$='gear.png'],
-.icon-go-next,
-[src$='diskusage48.png'],
-[src$='git-32x32.png'],
-[src$='findbugs-24x24.png'], [src$='findbugs-48x48.png'],
-[src$='checkstyle-24x24.png'], [src$='checkstyle-48x48.png'],
-[src$='analysis-24x24.png'], [src$='analysis-48x48.png'], 
-[src$='go-24x24.png'], [src$='go-48x48.png'], 
-[src$='idea-24x24.png'], [src$='idea-48x48.png'], 
-[src$='java-24x24.png'], [src$='java-48x48.png'], 
-[src$='resharper-24x24.png'], [src$='resharper-48x48.png'], 
-[src$='scala-24x24.png'], [src$='scala-48x48.png'], 
-[src$='warnings-24x24.png'], [src$='warnings-48x48.png'],
-[src$='dry-24x24.png'], [src$='dry-48x48.png'],
-[src$='pmd-24x24.png'], [src$='pmd-48x48.png'],
-[src$='tasks-24x24.png'], [src$='tasks-48x48.png'],
-[src$='logov3.png'] {
-
-  &.icon-xlg, &[src*='48x'], &.icon48x48 {
-    .icon(@size-xl);
-  }
-
-  &.icon-lg, &[src*='32x'], &.icon32x32, &[style*='width: 32p'], &[width="32"] {
-    .icon(@size-lg);
-  }
-
-  &.icon-md, &[src*='24x'], &.icon24x24, &[style*='width: 24p'], &[width="24"] {
-    .icon(@size-md);
-  }
-
-  &.icon-sm, &[src*='16x'], &.icon16x16, &[style*='width: 16p'], &[width="16"] {
-    .icon(@size-sm);
-  }
 }
 
 #header {
