@@ -768,7 +768,7 @@ isobject@^3.0.0, isobject@^3.0.1:
 
 jenkins-core-theme@TobiX/jenkins-core-theme:
   version "1.1.42"
-  resolved "https://codeload.github.com/TobiX/jenkins-core-theme/tar.gz/2b2624d6f4b0f5feefb1ed88299b82cffd3ffcef"
+  resolved "https://codeload.github.com/TobiX/jenkins-core-theme/tar.gz/79b07effa7d0bdfec6f2ed5b3a16ce00226a253e"
 
 js-yaml@~3.14.0:
   version "3.14.0"
