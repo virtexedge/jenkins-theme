@@ -30,7 +30,7 @@
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-less": "^3.0.0",
     "load-grunt-tasks": "^5.1.0",
-    "postcss": "^8.4.12"
+    "postcss": "^8.4.14"
   },
   "dependencies": {},
   "browserslist": [
