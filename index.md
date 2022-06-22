@@ -4,6 +4,10 @@
 ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
 [![Building CSS](https://github.com/TobiX/jenkins-neo2-theme/actions/workflows/build.yaml/badge.svg)](https://github.com/TobiX/jenkins-neo2-theme/actions/workflows/build.yaml)
 
+**DEPRECATED**: This theme isn't updated anymore. With Jenkins 2.333 (or LTS
+2.346.1), Jenkins has gotten a new set of icons, which are fine for me, so I
+won't maintain this theme anymore.
+
 Beautify your Jenkins with the a modern flat theme!
 
 Website: https://tobix.github.io/jenkins-neo2-theme
