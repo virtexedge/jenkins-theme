@@ -1,4 +1,4 @@
-# Jenkins Neo2 Theme
+# Jenkins Virtex Theme
 
 ![license](https://img.shields.io/github/license/tobix/jenkins-neo2-theme.svg)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
